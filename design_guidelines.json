@@ -1,0 +1,168 @@
+{
+  "project_name": "Catrina's Tacos & Tequilas Website",
+  "design_philosophy": {
+    "theme_name": "Noche de Fiesta (Festive Night)",
+    "core_concept": "A vibrant, mystical celebration of life and food. The site should feel like entering a high-end Día de los Muertos festival at midnight—mysterious, colorful, and deeply welcoming.",
+    "emotional_tone": "Festive, Authentic, Mystical, Warm, Energetic",
+    "visual_style": "Dark Luxury with Neon/Organic Accents"
+  },
+  "typography": {
+    "font_imports": [
+      "https://fonts.googleapis.com/css2?family=Rye&family=Sancreek&family=DM+Sans:opsz,wght@9..40,300;400;500;700&display=swap"
+    ],
+    "headings": {
+      "font_family": "\"Sancreek\", \"Rye\", serif",
+      "weight": "400",
+      "style": "uppercase",
+      "letter_spacing": "tracking-widest"
+    },
+    "subheadings": {
+      "font_family": "\"Rye\", serif",
+      "weight": "400",
+      "color": "text-primary"
+    },
+    "body": {
+      "font_family": "\"DM Sans\", sans-serif",
+      "weight": "400",
+      "leading": "leading-relaxed"
+    },
+    "accents": {
+      "font_family": "\"Sancreek\", cursive",
+      "usage": "Price tags, specialized badges, decorative numbers"
+    }
+  },
+  "colors": {
+    "background": {
+      "default": "#120F0D",
+      "paper": "#1C1816",
+      "card": "#241E1B",
+      "overlay": "rgba(18, 15, 13, 0.9)"
+    },
+    "text": {
+      "primary": "#F4F1DE",
+      "secondary": "#D0C9C0",
+      "muted": "#9A948C",
+      "inverse": "#120F0D"
+    },
+    "brand": {
+      "primary": "#FF6B00",
+      "secondary": "#D62828",
+      "accent_teal": "#00B4D8",
+      "accent_gold": "#FFB703",
+      "accent_purple": "#7209B7"
+    },
+    "status": {
+      "success": "#2D6A4F",
+      "error": "#D00000",
+      "warning": "#E85D04"
+    }
+  },
+  "layout_grid": {
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "spacing": {
+      "section_gap": "py-24 md:py-32",
+      "component_gap": "gap-8 md:gap-12",
+      "internal_padding": "p-6 md:p-10"
+    },
+    "strategies": {
+      "menu_grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8",
+      "gallery_bento": "grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px]"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#FF6B00] text-[#120F0D] font-bold uppercase tracking-widest hover:bg-[#FFB703] transition-all duration-300 rounded-none border-2 border-[#FF6B00] hover:border-[#FFB703] hover:shadow-[0_0_20px_rgba(255,107,0,0.4)] px-8 py-4",
+      "secondary": "bg-transparent text-[#F4F1DE] border-2 border-[#F4F1DE] uppercase tracking-widest hover:bg-[#F4F1DE] hover:text-[#120F0D] transition-all duration-300 rounded-none px-8 py-4",
+      "icon": "p-3 rounded-full bg-[#241E1B] text-[#FF6B00] hover:bg-[#FF6B00] hover:text-[#120F0D] transition-colors"
+    },
+    "cards": {
+      "menu_item": "bg-[#1C1816] border border-[#241E1B] p-6 hover:border-[#FF6B00]/30 transition-colors group relative overflow-hidden",
+      "feature": "bg-[#1C1816] p-8 border-t-4 border-[#FF6B00] hover:-translate-y-2 transition-transform duration-300 shadow-2xl"
+    },
+    "inputs": {
+      "default": "bg-[#0F0F10] border-b-2 border-[#3D3430] text-[#F4F1DE] focus:border-[#FF6B00] focus:outline-none px-0 py-4 placeholder:text-[#5C544F] rounded-none transition-colors w-full"
+    },
+    "navigation": {
+      "wrapper": "fixed top-0 w-full z-50 backdrop-blur-md bg-[#120F0D]/80 border-b border-[#3D3430]",
+      "link": "text-[#F4F1DE] uppercase tracking-widest text-sm hover:text-[#FF6B00] transition-colors font-bold"
+    },
+    "decorative": {
+      "divider_picado": "w-full h-4 bg-[url('https://www.transparenttextures.com/patterns/black-scales.png')] opacity-20 my-12",
+      "flower_accent": "absolute -z-10 opacity-10 text-[#FF6B00] rotate-12"
+    }
+  },
+  "image_assets": {
+    "hero_bg": "https://images.unsplash.com/photo-1529044731917-db2e35c4b7a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwxfHxsYSUyMGNhdHJpbmElMjBkaWElMjBkZSUyMGxvcyUyMG11ZXJ0b3MlMjBhcnRpc3RpYyUyMG1ha2V1cCUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MzM3NjA5NHww&ixlib=rb-4.1.0&q=85",
+    "catrina_art": "https://images.unsplash.com/photo-1707379223329-95917534b8ee?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHw0fHxsYSUyMGNhdHJpbmElMjBkaWElMjBkZSUyMGxvcyUyMG11ZXJ0b3MlMjBhcnRpc3RpYyUyMG1ha2V1cCUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MzM3NjA5NHww&ixlib=rb-4.1.0&q=85",
+    "menu_highlights": {
+      "tacos": "https://images.unsplash.com/photo-1585803518902-58a3ef005b51?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwyfHxiaXJyaWElMjB0YWNvcyUyMHBsYXRlJTIwYXV0aGVudGljfGVufDB8fHx8MTc3MzM3NjA4M3ww&ixlib=rb-4.1.0&q=85",
+      "fajitas": "https://images.unsplash.com/photo-1606168159202-1f3fca458c18?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHw0fHxtZXhpY2FuJTIwZm9vZCUyMGVuY2hpbGFkYXMlMjBmYWppdGFzJTIwZWxvdGUlMjB0YWNvcyUyMHNwcmVhZHxlbnwwfHx8fDE3NzMzNzYwOTV8MA&ixlib=rb-4.1.0&q=85",
+      "margarita": "https://images.unsplash.com/photo-1756521973408-0574c6d0fbed?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwzfHxmZXN0aXZlJTIwbWV4aWNhbiUyMG1hcmdhcml0YSUyMGNvY2t0YWlsfGVufDB8fHx8MTc3MzM3NjA4NHww&ixlib=rb-4.1.0&q=85",
+      "elote": "https://images.unsplash.com/photo-1613585812482-b6649a2ca171?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NjA1Mjh8MHwxfHNlYXJjaHwyfHxmZXN0aXZlJTIwbWV4aWNhbiUyMG1hcmdhcml0YSUyMGNvY2t0YWlsfGVufDB8fHx8MTc3MzM3NjA4NHww&ixlib=rb-4.1.0&q=85"
+    },
+    "ambience": {
+      "interior_1": "https://images.unsplash.com/photo-1653084019129-1f2303bb5bc0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBtZXhpY2FuJTIwcmVzdGF1cmFudCUyMGludGVyaW9yJTIwY29sb3JmdWx8ZW58MHx8fHwxNzczMzc2MDg1fDA&ixlib=rb-4.1.0&q=85",
+      "interior_2": "https://images.unsplash.com/photo-1759265231461-75abc2f1edc1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtZXhpY2FuJTIwcmVzdGF1cmFudCUyMGludGVyaW9yJTIwY29sb3JmdWx8ZW58MHx8fHwxNzczMzc2MDg1fDA&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "motion_and_effects": {
+    "scroll_behavior": "smooth",
+    "animations": {
+      "fade_in_up": "animate-in slide-in-from-bottom-8 fade-in duration-700",
+      "hover_scale": "hover:scale-105 transition-transform duration-300",
+      "text_reveal": "animate-in fade-in slide-in-from-left-4 duration-500"
+    },
+    "effects": {
+      "neon_glow": "shadow-[0_0_15px_rgba(255,107,0,0.5)]",
+      "grain_overlay": "pointer-events-none fixed inset-0 z-[100] opacity-[0.03] mix-blend-overlay bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"
+    }
+  },
+  "content_strategy": {
+    "voice": "Spirited, welcoming, and slightly mischievous (like La Catrina herself). Use phrases like 'Tacos to die for', 'Spirits high', 'Taste the tradition'.",
+    "sections": [
+      {
+        "name": "Hero",
+        "type": "Full-screen video/image background with centered typography. Two massive buttons: 'ORDER ONLINE' (Primary) and 'JOIN WAITLIST' (Secondary/Outline)."
+      },
+      {
+        "name": "About",
+        "type": "Split layout. Left: 'Catrina Art' image. Right: Story text about Independence, MO location and authentic recipes."
+      },
+      {
+        "name": "Menu Preview",
+        "type": "Tabbed Interface (Tacos, Entrees, Drinks). Cards with no borders, just generous spacing and big typography."
+      },
+      {
+        "name": "Waitlist/Reservation",
+        "type": "A dedicated 'Golden Ticket' section. Darker background. Simple form fields. 'Get in line before you arrive'."
+      },
+      {
+        "name": "Reviews",
+        "type": "Horizontal scrolling marquee of 5-star badges and quotes."
+      },
+      {
+        "name": "Location",
+        "type": "Full-width map with a custom dark skin overlay. Contact info in a floating glass card."
+      }
+    ]
+  },
+  "instructions_to_main_agent": {
+    "1": "Install 'framer-motion' and 'lucide-react' immediately.",
+    "2": "Override the default Shadcn 'slate' colors with the custom 'Warm Brown/Obsidian' palette in tailwind.config.js.",
+    "3": "Use the 'Sancreek' font for ALL headings. Use 'DM Sans' for body.",
+    "4": "The 'Waitlist' form MUST submit to the backend. Use a mock function if backend is not ready, but UI must be functional.",
+    "5": "Implement the 'Grain Overlay' on the body to give it a cinematic film look.",
+    "6": "Ensure the 'Order Online' button is the most prominent element on the page (Marigold Orange).",
+    "7": "Do NOT use standard Shadcn cards. Use the custom 'menu_item' card style defined in components.",
+    "8": "For the Chatbot: Use a floating button in the bottom-right. When opened, it should have a 'Day of the Dead' skull icon as the avatar.",
+    "9": "Gallery: Use a Masonry layout (Bento grid) for the images.",
+    "10": "Map: Use a grayscale or dark mode filter on the Google Maps embed if possible, or place it in a container with a dark overlay that fades out on hover."
+  },
+  "universal_guidelines": [
+    "Do not use gradients for backgrounds, use solid dark colors with noise textures.",
+    "Spacing should be generous (py-24 or py-32 for sections).",
+    "All interactive elements must have a hover state that changes color or scale.",
+    "Use 'data-testid' for all buttons and inputs.",
+    "Ensure high contrast for text (Cream on Dark Brown)."
+  ]
+}

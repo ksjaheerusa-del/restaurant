@@ -225,7 +225,7 @@ body {
 /* Chat Widget Styles */
 .chat-widget {
   position: fixed;
-  bottom: 24px;
+  bottom: 80px;
   right: 24px;
   z-index: 50;
 }
@@ -266,6 +266,6 @@ body {
     width: calc(100vw - 48px);
     right: -12px;
     bottom: 70px;
-    max-height: 60vh;
+    max-height: 50vh;
   }
 }
